@@ -4,8 +4,9 @@ import 'package:smart_grid/home.dart';
 import 'package:smart_grid/login.dart';
 import 'package:smart_grid/onboarding5.dart';
 import 'dart:ui';
-
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:smart_grid/onboarding6.dart';
+import 'package:smart_grid/splashscreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
       theme: new ThemeData(scaffoldBackgroundColor: Color(0xffffffff)),
       debugShowCheckedModeBanner: false,
       title: 'Smart Grid',
-      home: Home(),
+      home: splashscreen(),
     );
   }
 }

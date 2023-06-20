@@ -158,7 +158,7 @@ class _HomeState extends State<Home> {
                     ),
                   ),
                   Padding(
-                      padding: const EdgeInsets.only(top: 70),
+                      padding: const EdgeInsets.only(top: 210),
                       child: LayoutBuilder(
                         builder:
                             (BuildContext context, BoxConstraints constraints) {
@@ -173,7 +173,7 @@ class _HomeState extends State<Home> {
                           return Container(
                             alignment: Alignment.center,
                             child: Image.asset(
-                              'images/Rectangle 172.png',
+                              'images/Rectangle 172 (2).png',
                               height: desiredHeight,
                             ),
                           );

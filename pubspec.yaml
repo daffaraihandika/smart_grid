@@ -37,10 +37,19 @@ dependencies:
   cupertino_icons: ^1.0.2
   google_fonts: ^4.0.4
   curved_navigation_bar: ^1.0.3
+  flutter_native_splash: ^2.2.19
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+flutter_native_splash:
+  color: "#163A54"
+  image: images/Logo.png
+  android: true
+  ios: true
+  web: true
+
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is

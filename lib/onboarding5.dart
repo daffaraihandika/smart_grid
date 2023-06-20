@@ -31,7 +31,13 @@ class _onboardingState extends State<onboarding> {
             alignment: Alignment.centerRight,
             padding: EdgeInsets.only(top: 33, right: 25),
             child: TextButton(
-                onPressed: () => Home(),
+                onPressed: () {
+                  Navigator.of(context).push(MaterialPageRoute(
+                    builder: (context) {
+                      return Home();
+                    },
+                  ));
+                },
                 child: Text(
                   'Skip',
                   style: TextStyle(
